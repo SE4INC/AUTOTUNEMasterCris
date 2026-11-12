@@ -1,4 +1,4 @@
-name: Build Cris Vox Tuner VST3
+ame: Build Cris Vox Tuner VST3
 
 on:
   push:
@@ -16,7 +16,7 @@ jobs:
           submodules: recursive
 
       - name: Configure CMake
-        run: cmake -B build -S . -DCMAKE_BUILD_TYPE=Release -DCRIS_BUILD_PLUGIN=ON -DCRIS_BUILD_TESTS=OFF
+        run: cmake -B build -S CRIS-VOX-TUNER -DCMAKE_BUILD_TYPE=Release -DCRIS_BUILD_PLUGIN=ON -DCRIS_BUILD_TESTS=OFF
 
       - name: Build VST3
         run: cmake --build build --config Release

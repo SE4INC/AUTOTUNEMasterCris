@@ -1,4 +1,4 @@
-ame: Build Cris Vox Tuner VST3
+name: Build Cris Vox Tuner VST3
 
 on:
   push:

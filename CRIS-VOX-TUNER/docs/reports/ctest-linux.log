@@ -1,0 +1,49 @@
+Start testing: Nov 11 21:32 CET
+----------------------------------------------------------
+1/2 Testing: cris_dsp_tests
+1/2 Test: cris_dsp_tests
+Command: "<workspace>/build-plugin/cris_dsp_tests"
+Directory: <workspace>/build-plugin
+"cris_dsp_tests" start time: Nov 11 21:32 CET
+Output:
+----------------------------------------------------------
+Corrected 44100 Hz: 112.246 (detected 112.25, shift -0.350418) -> 110.237 Hz
+Corrected 48000 Hz: 112.246 (detected 112.25, shift -0.350597) -> 110.298 Hz
+Corrected 96000 Hz: 112.246 (detected 112.25, shift -0.350597) -> 110.298 Hz
+Register check 61.7354 Hz, -35 ct: residual 4.31007 ct
+Register check 61.7354 Hz, 35 ct: residual 8.04098 ct
+Register check 82.4069 Hz, -35 ct: residual 3.67205 ct
+Register check 82.4069 Hz, 35 ct: residual 6.1051 ct
+Register check 195.998 Hz, -35 ct: residual 2.86599 ct
+Register check 195.998 Hz, 35 ct: residual 2.99361 ct
+LIVE stereo 44100 Hz: 14.4086 ms for 0.870748 s, allocations=0
+LIVE stereo 48000 Hz: 12.3398 ms for 0.8 s, allocations=0
+LIVE stereo 96000 Hz: 10.6469 ms for 0.4 s, allocations=0
+PASS: 282347 checks (synthetic signals; not a real-vocal acceptance test).
+<end of output>
+Test time =   0.57 sec
+----------------------------------------------------------
+Test Passed.
+"cris_dsp_tests" end time: Nov 11 21:32 CET
+"cris_dsp_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/2 Testing: cris_integration_tests
+2/2 Test: cris_integration_tests
+Command: "<workspace>/build-plugin/cris_integration_tests"
+Directory: <workspace>/build-plugin
+"cris_integration_tests" start time: Nov 11 21:32 CET
+Output:
+----------------------------------------------------------
+Real singing fixture: singing.ogg, 1.36025 s, 2 notes; sustained-note median chromatic error 43.0216 -> 5.39871 cents
+PASS: JUCE integration, real singing render, presets, manual edit, state, export, playback and UI snapshots.
+Listening assessment and FL Studio/Windows acceptance remain required.
+<end of output>
+Test time =   0.87 sec
+----------------------------------------------------------
+Test Passed.
+"cris_integration_tests" end time: Nov 11 21:32 CET
+"cris_integration_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Nov 11 21:32 CET

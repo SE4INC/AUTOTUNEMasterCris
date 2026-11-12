@@ -1,0 +1,16 @@
+{
+  "product": "CRIS VOX TUNER",
+  "version": "1.0.0",
+  "status": "development candidate",
+  "source_platform_tested": "Linux x86_64",
+  "windows_binary_included": false,
+  "windows_build": "GitHub Actions windows-2022 / MSVC",
+  "juce": "8.0.13",
+  "tests": {
+    "ctest": "2/2 passed",
+    "pluginval": "1.0.4 strictness 5 SUCCESS",
+    "FL Studio": "not tested",
+    "real_vocal": "JUCE singing.ogg 1.36025 s; objective only"
+  },
+  "limitations": "See docs/LIMITATIONS.md and docs/VALIDATION.md"
+}
